@@ -1,0 +1,16 @@
+.penalties {
+    /*display: grid;
+    grid-template-columns: repeat(7, 1fr);*/
+    display: flex;
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    border-top: solid 3px var(--player-border-color);
+    padding: calc(var(--tile-size)/15);
+    gap: calc(var(--tile-size)/5);
+    justify-content: left;
+}
+
+.penalty-value {
+    justify-self: right;
+    margin-left: auto;
+}

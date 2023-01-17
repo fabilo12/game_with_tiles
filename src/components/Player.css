@@ -1,0 +1,14 @@
+.player-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid var(--player-border) var(--player-border-color);
+	border-spacing: calc(var(--tile-size)/15);
+	margin: auto;
+	padding: calc(var(--tile-size)/15);
+	gap: calc(var(--tile-size)/5) calc(var(--tile-size));
+}
+
+.player-container.at-turn {
+    font-weight: bold;
+    border: solid calc(var(--player-border)*2) var(--player-border-color);
+}

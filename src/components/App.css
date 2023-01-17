@@ -1,0 +1,34 @@
+#app-container {
+  display: grid;
+  grid-template-areas:
+    "player0 player1 info"
+    "center center info"
+    "player2 player3 info";
+  grid-template-columns: 1.5fr 1.5fr 1fr;
+  gap: calc(var(--tile-size)*2);
+  margin: var(--tile-size);
+}
+
+.app-container>.player-container {
+  grid-area: player0;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.app-container>.player-container {
+  grid-area: player1;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.app-container>.player-container {
+  grid-area: player2;
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.app-container>.player-container {
+  grid-area: player3;
+  grid-row: 3;
+  grid-column: 2;
+}

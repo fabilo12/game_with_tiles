@@ -1,0 +1,24 @@
+.dist-viz-container {
+    display: flex;
+    gap: calc(var(--tile-size)*0.5);
+}
+
+.dist-viz-tile {
+    color: var(--white);
+}
+
+.normal-size {
+    height: var(--tile-size);
+    width: var(--tile-size);
+}
+
+.larger-size {
+    height: var(--middle-tile-size);
+    width: var(--middle-tile-size);
+    font-size: large;
+}
+
+#starting-tile {
+    background-color: var(--light-grey);
+    border-radius: calc(var(--tile-size)*20);
+}

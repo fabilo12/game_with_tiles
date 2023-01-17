@@ -1,0 +1,17 @@
+.player-header {
+	display: grid;
+	grid-row: 1;
+	grid-column: 1 / span 2;
+	grid-template-columns: 1fr 1fr;
+	border-bottom: solid 3px var(--player-border-color);
+	color: var(--player-border-color);
+	font-family: var(--standard-font);
+}
+
+.player-name {
+	text-align: left;
+}
+
+.player-score {
+	text-align: right;
+}

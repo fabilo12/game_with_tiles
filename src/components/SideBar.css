@@ -1,0 +1,5 @@
+#sidebar-container {
+	grid-area: info;
+    display: grid;
+    align-content: baseline;
+}
