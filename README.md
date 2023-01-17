@@ -1,6 +1,6 @@
 # Game with tiles
 
-This is an implementation of a [known board game](https://en.wikipedia.org/wiki/Azul_(board_game). It was made as an exercise in order to get practice in JavaScript and aspects of front-end development. 
+This is an implementation of a [known board game](https://en.wikipedia.org/wiki/Azul_(board_game)). It was made as an exercise in order to get practice in JavaScript and aspects of front-end development. 
 
 ## Playing the game
 
