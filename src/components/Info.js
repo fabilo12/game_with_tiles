@@ -18,9 +18,9 @@ export default function Info() {
 		stateInfo = winner.join(' and ') + ' win(s) with ' + maxScore + ' points.';
 		whatToDo = 'Please click below button to start a new game!';
 	} else if (state.hasOwnProperty('selectedTiles')) {
-		const auxRepo = state.selectedTiles.repo==='middle' ? 
+		const auxRepo = (state.selectedTiles.repo === state.nRepos) ? 
 			'the leftovers' : 
-			'repository ' + state.selectedTiles.repo;
+			'repository ' + (state.selectedTiles.repo + 1);//count from 1 instead of 0
 		stateInfo = 
 			state.tileColorNames[state.selectedTiles.color] + 
 			' tiles selected from ' +

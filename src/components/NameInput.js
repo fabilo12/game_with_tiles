@@ -12,7 +12,7 @@ export default function NameInput(props) {
                 <React.Fragment key={el}>
                     <label 
                         htmlFor={'name' + el}
-                    >Name of Player {(el + 1).toString()}:</label>
+                    >Name of {state.nameListDefault[el]}:</label>
                     <input 
                         type='text' 
                         id={'inputName' + el} 
