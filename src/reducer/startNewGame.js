@@ -1,4 +1,4 @@
-import gameState from '../azul_lib/gameState.js'
+import gameState from '../utils/gameState.js'
 
 export default function startNewGame(state) {
 

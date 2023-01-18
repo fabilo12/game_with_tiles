@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Context } from './Store.js'
 import DistViz from './DistViz.js';
-import calcPenalty from '../azul_lib/calcPenalty.js'
+import calcPenalty from '../utils/calcPenalty.js'
 import './Penalties.css'
 
 

@@ -1,4 +1,4 @@
-import finishRound from '../azul_lib/finishRound.js'
+import finishRound from '../utils/finishRound.js'
 
 export default function putTilesIntoRow(state, payload) {
 
