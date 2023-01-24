@@ -8,11 +8,11 @@ export default function NumPlayerSelection(props) {
 	const [state, dispatch] = useContext(Context);
 
     return (
-        <form className='playerForm'>
-            <label htmlFor='nPlayer'>Select number of players:</label>
+        <form className='player-form'>
+            <label htmlFor='num-player'>Select number of players:</label>
             <select 
-                name='nPlayer' 
-                id='nPlayer' 
+                name='num-player' 
+                id='num-player' 
                 defaultValue={state.numPlayerDefault} 
                 onChange={e => {
                     dispatch({

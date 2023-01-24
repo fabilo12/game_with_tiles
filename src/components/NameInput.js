@@ -15,8 +15,8 @@ export default function NameInput(props) {
                     >Name of {state.nameListDefault[el]}:</label>
                     <input 
                         type='text' 
-                        id={'inputName' + el} 
-                        className='nameInput'
+                        id={'input-name' + el} 
+                        className='name-input'
                         defaultValue={state.nameListDefault[el]}
                         name={'name' + el}
                         onChange={
