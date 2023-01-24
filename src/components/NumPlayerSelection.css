@@ -1,3 +1,16 @@
-.playerForm {
+.player-form {
     display: grid;
+    
+}
+
+.player-form select,input {
+    background-color: var(--tile-field-background);
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px; 
+}
+
+.player-form select {
+    /*background-color: var(--tile-field-background);
+    border-radius: 5px;*/
+    margin-bottom: 30px;
 }

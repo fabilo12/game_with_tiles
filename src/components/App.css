@@ -7,8 +7,10 @@
   grid-template-columns: 1.5fr 1.5fr 1fr;
   gap: calc(var(--tile-size)*2);
   margin: var(--tile-size);
+  /*height: 92vh;*/
 }
 
+/*
 .app-container>.player-container {
   grid-area: player0;
   grid-row: 1;
@@ -31,4 +33,4 @@
   grid-area: player3;
   grid-row: 3;
   grid-column: 2;
-}
+}*/

@@ -1,10 +1,7 @@
-.input {
+.name-input {
     display: block;
-    background-color: var(--tile-field-background);
-    padding: 8px 15px;
-    border-radius: 20px;
-    margin: 50px;
+    /*padding: 8px 15px;
     font-size: x-large;
     font-weight: bold;
-    border: 5px solid black;
+    border: 5px solid black;*/
 }

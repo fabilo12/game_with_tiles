@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/game_with_tiles/static/css/main.2e25b114.css",
-    "main.js": "/game_with_tiles/static/js/main.ee5a98db.js",
+    "main.css": "/game_with_tiles/static/css/main.e8a58e32.css",
+    "main.js": "/game_with_tiles/static/js/main.75a09842.js",
     "static/js/787.3ac3ca64.chunk.js": "/game_with_tiles/static/js/787.3ac3ca64.chunk.js",
     "index.html": "/game_with_tiles/index.html",
-    "main.2e25b114.css.map": "/game_with_tiles/static/css/main.2e25b114.css.map",
-    "main.ee5a98db.js.map": "/game_with_tiles/static/js/main.ee5a98db.js.map",
+    "main.e8a58e32.css.map": "/game_with_tiles/static/css/main.e8a58e32.css.map",
+    "main.75a09842.js.map": "/game_with_tiles/static/js/main.75a09842.js.map",
     "787.3ac3ca64.chunk.js.map": "/game_with_tiles/static/js/787.3ac3ca64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e25b114.css",
-    "static/js/main.ee5a98db.js"
+    "static/css/main.e8a58e32.css",
+    "static/js/main.75a09842.js"
   ]
 }

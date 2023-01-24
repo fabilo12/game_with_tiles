@@ -6,6 +6,9 @@
 .tile-field {
     height: var(--tile-size);
     width: var(--tile-size);
+    /*height: 100%;
+    aspect-ratio: 1;
+    padding: 2%;*/
 }
 
 .occupied {

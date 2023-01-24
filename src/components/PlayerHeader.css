@@ -6,6 +6,7 @@
 	border-bottom: solid 3px var(--player-border-color);
 	color: var(--player-border-color);
 	font-family: var(--standard-font);
+	/*height: 100%;*/
 }
 
 .player-name {
