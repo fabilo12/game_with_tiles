@@ -48,7 +48,7 @@ function getCallBack(state, color, place) {
 			repo: state.nRepos,
 		  }
 		};
-	} else if (place.slice(0,6)==='player') {
+	} else if (place.slice(0,6)==='player' && state.hasOwnProperty('selectedTiles')) {
 		callBack = {
 			type: 'PUT_TILES_INTO_ROW',
 			payload: {},
