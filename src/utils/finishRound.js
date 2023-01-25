@@ -146,7 +146,7 @@ function putBackStartingTile(state) {
 
 	const newState = { ...state };
 
-    newState.playerAtTurn = Number(x.slice(6,));
+    newState.playerAtTurn = Number(newState.startingTile.slice(6,));
 	newState.startingTile = 'middle';
 
 	return newState
