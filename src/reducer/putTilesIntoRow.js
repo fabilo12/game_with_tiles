@@ -51,22 +51,22 @@ function processDrawnTiles(state, payload) {
 	const drawn = newState.repos[newState.selectedTiles.repo].filter(
 		el => el === newState.selectedTiles.color
 	);
-	let targetRow
-	if (!payload.hasOwnProperty('row')) {
-		targetRow = [];
-	} else {
-		targetRow = newState.rows[newState.playerAtTurn][payload.row];
-	}
-	const nTileInRow = targetRow.filter(el => el === drawn[0]).length;
-	const nDrawn = drawn.length;
-	const auxFilled = Array(Math.min(nTileInRow + nDrawn, targetRow.length)).fill(drawn[0]);
-	const auxEmpty = Array(targetRow.length - auxFilled.length).fill(state.emptyTileField);
+	let excessiveTiles;
 	if (payload.hasOwnProperty('row')) {
-		newState.rows[newState.playerAtTurn][payload.row] = auxFilled.concat(auxEmpty);
+		let filledRow = 
+			newState.rows[newState.playerAtTurn][payload.row].filter(
+				el => el !== newState.emptyTileField
+			).concat(drawn);
+		const rowLength = payload.row + 1;
+		excessiveTiles = filledRow.slice(rowLength);
+		newState.rows[newState.playerAtTurn][payload.row] = Array.from(
+			Array(rowLength), 
+			(_, i) => i < filledRow.length ? filledRow[i]: -1
+		);
+	} else {
+		excessiveTiles = [...drawn];
 	}
-	newState.penalties[newState.playerAtTurn].push(
-		...Array(Math.max(0, nDrawn - (targetRow.length - nTileInRow))).fill(drawn[0])
-	);
+	newState.penalties[newState.playerAtTurn].push(...excessiveTiles);
 
 	return newState
 }
