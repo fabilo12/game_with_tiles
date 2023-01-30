@@ -7,7 +7,7 @@ export default function startNewGame(state) {
 	if (!isInitialCall) {
 		playerList = state.nameListInput;
 	}
-	const initialState = new gameState(playerList);
+	const initialState = gameState(playerList);
 
 	return initialState
 }
