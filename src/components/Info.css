@@ -1,10 +1,10 @@
 .info-output {
-    background-color: var(--tile-field-background);
-    padding: 8px 15px;
-    border-radius: 10px;
-    margin: 5px;
+	background-color: var(--tile-field-background);
+	padding: 8px 15px;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 .info-output.what-to-do {
-    font-weight: bold;
+	font-weight: bold;
 }

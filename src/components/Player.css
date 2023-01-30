@@ -7,11 +7,9 @@
 	margin: auto;
 	padding: calc(var(--tile-size)/15);
 	gap: calc(var(--tile-size)/5) calc(var(--tile-size));
-	/*height: 100%;
-	aspect-ratio: 1.5;*/
 }
 
 .player-container.at-turn {
-    font-weight: bold;
-    border: solid calc(var(--player-border)*2) var(--player-border-color);
+	font-weight: bold;
+	border: solid calc(var(--player-border)*2) var(--player-border-color);
 }

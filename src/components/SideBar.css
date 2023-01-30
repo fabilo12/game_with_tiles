@@ -1,7 +1,6 @@
 #sidebar-container {
 	grid-area: info;
-    display: flex;
-    flex-direction: column;
-    align-content: baseline;
-    /*height: 100%;*/
+	display: flex;
+	flex-direction: column;
+	align-content: baseline;
 }

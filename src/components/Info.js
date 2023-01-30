@@ -12,17 +12,17 @@ export default function Info() {
 	if (state.isGameOver) {
 		whoseTurn = 'The game is over.';
 		const maxScore = Math.max(...state.scores);
-	    const winner = state.playerList.filter(
-    	    (_,i) => state.scores[i] === maxScore
-    	);
+		const winner = state.playerList.filter(
+			(_, i) => state.scores[i] === maxScore
+		);
 		stateInfo = winner.join(' and ') + ' win(s) with ' + maxScore + ' points.';
 		whatToDo = 'Please click below button to start a new game!';
 	} else if (state.hasOwnProperty('selectedTiles')) {
-		const auxRepo = (state.selectedTiles.repo === state.nRepos) ? 
-			'the leftovers' : 
+		const auxRepo = (state.selectedTiles.repo === state.nRepos) ?
+			'the leftovers' :
 			'repository ' + (state.selectedTiles.repo + 1);//count from 1 instead of 0
-		stateInfo = 
-			state.tileColorNames[state.selectedTiles.color] + 
+		stateInfo =
+			state.tileColorNames[state.selectedTiles.color] +
 			' tiles selected from ' +
 			auxRepo + '.';
 		whatToDo = 'Please select a target row!';
@@ -30,7 +30,7 @@ export default function Info() {
 		stateInfo = 'No tiles selected.';
 		whatToDo = 'Please select tiles from repository or leftovers!';
 	}
-	
+
 	return (
 		<React.Fragment>
 			<output className='info-output'>{whoseTurn}</output>

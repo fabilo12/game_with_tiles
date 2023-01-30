@@ -2,57 +2,58 @@
 /*from "create-react-app"*/
 /*---------------------------------------------------------*/
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
+
 /*---------------------------------------------------------*/
 
 :root {
-  --tile-field-background: #F5DEB3;
-  --tile-field-background-dark: #9d8e74;
-  --tile-color-0: #1171ae;
-  --tile-color-1: #e3af28;
-  --tile-color-2: #da3545;
-  --tile-color-3: #111111;
-  --tile-color-4: #60a6b2;
-  --repo-border-color: #000;
-  --player-border-color: #000;
-  --grey: #555;
-  --light-grey: #aaaaaa;
-  --white: #ffffff;
+	--tile-field-background: #F5DEB3;
+	--tile-field-background-dark: #9d8e74;
+	--tile-color-0: #1171ae;
+	--tile-color-1: #e3af28;
+	--tile-color-2: #da3545;
+	--tile-color-3: #111111;
+	--tile-color-4: #60a6b2;
+	--repo-border-color: #000;
+	--player-border-color: #000;
+	--grey: #555;
+	--light-grey: #aaaaaa;
+	--white: #ffffff;
 
-  --tile-gap: 0.1em;
-  --tile-size: 1.5em;
-  --middle-tile-size: 3em;
-  --player-border: 0.15em;
-  --standard-font: Arial;
+	--tile-gap: 0.1em;
+	--tile-size: 1.5em;
+	--middle-tile-size: 3em;
+	--player-border: 0.15em;
+	--standard-font: Arial;
 }
 
 .tile-color-0 {
-  background-color: var(--tile-color-0);
+	background-color: var(--tile-color-0);
 }
 
 .tile-color-1 {
-  background-color: var(--tile-color-1);
+	background-color: var(--tile-color-1);
 }
 
 .tile-color-2 {
-  background-color: var(--tile-color-2);
+	background-color: var(--tile-color-2);
 }
 
 .tile-color-3 {
-  background-color: var(--tile-color-3);
+	background-color: var(--tile-color-3);
 }
 
 .tile-color-4 {
-  background-color: var(--tile-color-4);
+	background-color: var(--tile-color-4);
 }

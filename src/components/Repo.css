@@ -1,11 +1,9 @@
 .repo-container {
-    display: grid;
-    float: left;
-    grid-template-columns: 1fr 1fr;
-    gap: calc(var(--tile-size)/5);
-    border: solid 3px var(--repo-border-color);
-    border-radius: calc(var(--tile-size)*2);
-    padding: calc(var(--tile-size)*0.5);
-    /*height: 100%;
-    aspect-ratio: 1;*/
+	display: grid;
+	float: left;
+	grid-template-columns: 1fr 1fr;
+	gap: calc(var(--tile-size)/5);
+	border: solid 3px var(--repo-border-color);
+	border-radius: calc(var(--tile-size)*2);
+	padding: calc(var(--tile-size)*0.5);
 }

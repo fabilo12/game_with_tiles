@@ -1,6 +1,5 @@
 import React, {useContext} from 'react';
 import {Context} from './Store.js'
-import './AllPlayers.css'
 import Player from './Player.js';
 
 export default function AllPlayers() {

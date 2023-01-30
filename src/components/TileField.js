@@ -4,17 +4,17 @@ import './TileField.css';
 
 
 export default function TileField(props) {
-//TileField is used in Rows.js, Repo.js and Wall.js
+	//TileField is used in Rows.js, Repo.js and Wall.js
 
 	const [state, dispatch] = useContext(Context);
 
 	const row = typeof (props.row) === 'undefined' ? '' : 'row' + props.row;
 	const column = typeof (props.column) === 'undefined' ? '' : 'column' + props.column;
-	const occupancy = (props.tileColor === state.emptyTileField) ? 
-	    'empty': 
+	const occupancy = (props.tileColor === state.emptyTileField) ?
+		'empty' :
 		'occupied tile-color-' + props.tileColor;
-	const pattern = (props.type==='wall') ? 
-		'pattern-color-' + state.wallPattern[props.row][props.column] : 
+	const pattern = (props.type === 'wall') ?
+		'pattern-color-' + state.wallPattern[props.row][props.column] :
 		'';
 
 	let callBack = { type: '' };//default reducer is identity function

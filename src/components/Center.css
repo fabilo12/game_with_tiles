@@ -1,29 +1,23 @@
 #center-container {
-    display: grid;
-    /*grid-row: 2;
-    grid-column: 1 / span 2;
-    grid-template-columns: 1fr;*//*equivalent to below line*/
-    grid-area: center;
-    gap: calc(var(--tile-size)*2) calc(var(--tile-size)*0.5);
-    /*height: 100%;*/
+	display: grid;
+	grid-area: center;
+	gap: calc(var(--tile-size)*2) calc(var(--tile-size)*0.5);
 }
 
 #all-repos-container {
-    display: flex;
-    justify-content: center;
-    grid-row: 1;
-    gap: calc(var(--tile-size)*0.5);
-    flex-direction: row;
-    flex-wrap: wrap;
-    /*height: 100%;*/
+	display: flex;
+	justify-content: center;
+	grid-row: 1;
+	gap: calc(var(--tile-size)*0.5);
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 #middle-tiles-container {
-    display: flex;
-    justify-content: center;
-    grid-row: 2;
-    gap: calc(var(--tile-size)*0.5);
-    flex-direction: row;
-    flex-wrap: wrap;
-    /*height: 100%;*/
+	display: flex;
+	justify-content: center;
+	grid-row: 2;
+	gap: calc(var(--tile-size)*0.5);
+	flex-direction: row;
+	flex-wrap: wrap;
 }

@@ -8,14 +8,14 @@ import './App.css';
 
 export default function App() {
 
-  return (
-    <Store >
-      <div id='app-container'>
-        <SideBar />
-        <AllPlayers />
-        <Center />
-        <WinnerAlert/>
-      </div>
-    </Store>
-  );
+	return (
+		<Store >
+			<div id='app-container'>
+				<SideBar />
+				<AllPlayers />
+				<Center />
+				<WinnerAlert />
+			</div>
+		</Store>
+	);
 }
