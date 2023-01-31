@@ -71,7 +71,6 @@ export default function gameState(playerListArg) {
 		penalties: Array(nPlayerAux).fill().map(_ => [])
 	};
 
-	console.log(initState.repos.concat([]))
 	const initStateFilledRepo = fillRepos(initState);
 
 	return initStateFilledRepo
