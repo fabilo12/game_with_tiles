@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/game_with_tiles/static/css/main.e8a58e32.css",
-    "main.js": "/game_with_tiles/static/js/main.69671baa.js",
+    "main.js": "/game_with_tiles/static/js/main.9b5e4562.js",
     "index.html": "/game_with_tiles/index.html",
     "main.e8a58e32.css.map": "/game_with_tiles/static/css/main.e8a58e32.css.map",
-    "main.69671baa.js.map": "/game_with_tiles/static/js/main.69671baa.js.map"
+    "main.9b5e4562.js.map": "/game_with_tiles/static/js/main.9b5e4562.js.map"
   },
   "entrypoints": [
     "static/css/main.e8a58e32.css",
-    "static/js/main.69671baa.js"
+    "static/js/main.9b5e4562.js"
   ]
 }
