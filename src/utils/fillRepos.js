@@ -20,7 +20,7 @@ export default function fillRepos(state) {
 				newState = refillBag(newState);
 				const bagHasEnoughTilesNow = (newState.bag.length >= newState.tilesPerRepo);
 				if (!bagHasEnoughTilesNow) {
-					throw new Error('There too few tiles in the game!');
+					throw new Error('There are too few tiles in the game!');
 				}
 			}
 		}
