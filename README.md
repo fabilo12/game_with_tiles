@@ -13,6 +13,7 @@ The game is hosted via [GitHub Pages](https://pages.github.com/) under [this Lin
 * Testing
   * The code was created without testing in mind. Therefore, some functions (e.g. addFinalScore within finishRound.js) should be put into a separate file to be accessible for testing.
 * Look and handling, especially on mobile devices.
+* Migrate to TypeScript
 * An additional play mode where the color pattern on the wall is not predefined.
 
 ## About implementation
